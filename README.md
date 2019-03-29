@@ -20,7 +20,7 @@ Xdebug's default port (9000) conflicts with FastCGI (Xdebug was first!) - the so
 
 # SQL
 
-enable query logging
+## Query logging
 ```
 SET GLOBAL general_log = 1;
 SET GLOBAL general_log_file = "/var/log/mysql/query.log"

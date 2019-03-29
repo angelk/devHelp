@@ -18,6 +18,15 @@ Xdebug's default port (9000) conflicts with FastCGI (Xdebug was first!) - the so
 
 ## [php static analysis tools](https://github.com/exakat/php-static-analysis-tools)
 
+# SQL
+
+enable query logging
+```
+SET general_log = 1;
+general_log_file = /var/log/mysql/query.log
+```
+
+
 # Ssh alias
 ```
 Host myproject1.dev.myorganizations.com

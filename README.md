@@ -26,13 +26,15 @@ SET GLOBAL general_log = 1;
 
 # write logs in file
 SET GLOBAL general_log_file = "/var/log/mysql/query.log"
+# view logs
+SELECT * FROM mysql.`general_log`;
 
 # write logs in table
 SET global log_output = 'table';
 ```
 
 
-# Ssh alias
+# SSH alias
 ```
 Host myproject1.dev.myorganizations.com
   HostName myproject1

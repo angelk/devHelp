@@ -10,7 +10,7 @@ export XDEBUG_CONFIG="idekey=netbeans-xdebug remote_host=10.0.3.1"
 ```
 
 For PHPStorm you need to specify serverName, check [jetbrains.com](https://www.jetbrains.com/help/phpstorm/debugging-a-php-cli-script.html) for more info
-```
+```shell
 export PHP_IDE_CONFIG="serverName=my-server-name"
 ```
 
@@ -21,7 +21,7 @@ Xdebug's default port (9000) conflicts with FastCGI (Xdebug was first!) - the so
 # SQL
 
 ## Query logging
-```
+```sql
 SET GLOBAL general_log = 1;
 
 # set log file

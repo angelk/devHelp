@@ -24,13 +24,14 @@ Xdebug's default port (9000) conflicts with FastCGI (Xdebug was first!) - the so
 ```
 SET GLOBAL general_log = 1;
 
-# write logs in file
+# set log file
 SET GLOBAL general_log_file = "/var/log/mysql/query.log"
-# view logs
-SELECT * FROM mysql.`general_log`;
+
 
 # write logs in table
 SET global log_output = 'table';
+# view logs
+SELECT * FROM mysql.`general_log`;
 ```
 
 

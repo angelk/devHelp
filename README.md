@@ -55,7 +55,7 @@ Instructions on the site are straight forward: https://www.dotdeb.org/instructio
 ## php 7.1
 I wrote simple straight forward tutorial: http://angelk.eu/?p=690
 
-# Bashrc improvements
+# Bashrc improvements (~/.bashrc)
 ```
 PS1='\[\033[0;32m\]\[\033[0m\033[0;32m\]\u\[\033[0;36m\] @ \[\033[0;36m\]\h \w\[\033[0;32m\]$(__git_ps1)\n\[\033[0;32m\]└─\[\033[0m\033[0;32m\] \$\[\033[0m\033[0;32m\] ▶\[\033[0m\] '
 ```

@@ -67,3 +67,5 @@ Result:
 myUsername @ pc150 ~/Projects/th-website (bugfix/login-issue)
 └─ $ ▶ 
 ```
+* [prompt customization from arch wiki](https://wiki.archlinux.org/index.php/Bash/Prompt_customization)
+* [bashrc generator](http://bashrcgenerator.com/)

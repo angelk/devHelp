@@ -1,0 +1,5 @@
+# install additional packages for kde-plasma-dekstop
+
+apt-get install kwin-addons \
+                plasma-nm
+                

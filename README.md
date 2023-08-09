@@ -48,12 +48,12 @@ Host myproject1.dev.myorganizations.com
 # Installing php
 I'm using Debian, so I will explain debian installation
 
-## php 7.0
-Use [dotdeb](https://www.dotdeb.org/mirrors/) mirror.
-Instructions on the site are straight forward: https://www.dotdeb.org/instructions/
-
-## php 7.1
-I wrote simple straight forward tutorial: http://angelk.eu/?p=690
+```
+wget -O /etc/apt/trusted.gpg.d/php.gpg https://packages.sury.org/php/apt.gpg
+echo "deb https://packages.sury.org/php/ $(lsb_release -sc) main" > /etc/apt/sources.list.d/php.list
+apt-get update && apt-get install php-8.1
+or php-DESIRED_VERSION
+```
 
 # Bashrc improvements (~/.bashrc)
 ```
